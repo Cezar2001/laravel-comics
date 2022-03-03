@@ -67,9 +67,6 @@
             <li>DC Power Visa</li>
         </ul>
     </div>
-    {{-- <span>All Site Content TM and © 2020 DC Entertainment, unless otherwise <span>noted here</span>. All rights reserved</span>
-    <br>
-    <span>Cookies Settings</span> --}}
 
     <div class="logo"></div>
 </div>
@@ -78,8 +75,6 @@
     <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise <span class="lighted">noted here</span>. All rights reserved</p>
     <span>Cookies Settings</span>
 </div>
-{{-- <div>All Site Content TM and © 2020 DC Entertainment, unless otherwise <span class="lighted">noted here</span>. All rights reserved</div>
-<div class="cookie">Cookies Settings</div> --}}
 
 <div class="footer-sign-up"> 
     <button>SIGN-UP NOW!</button>
