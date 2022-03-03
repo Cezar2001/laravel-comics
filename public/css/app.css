@@ -12262,6 +12262,111 @@ nav .search .fa-search {
   bottom: 7px;
 }
 
+.footer-nav {
+  background-color: #007FFF;
+  height: 120px;
+  line-height: 120px;
+  color: red;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav ul li {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.footer-nav ul li img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-nav ul li span {
+  margin-left: 10px;
+}
+
+.footer-app {
+  background-image: url("/images/footer-bg.jpg");
+  height: 470px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-app .list {
+  margin-top: 15px;
+}
+
+.footer-app .list ul li {
+  color: #888;
+  padding: 2px 0;
+}
+
+.footer-app .list ul li h2,
+.footer-app .list ul li .h2 {
+  color: #FFF;
+  padding: 5px 0;
+}
+
+.footer-app .logo {
+  background-image: url("/images/dc-logo-bg.png");
+  background-size: cover;
+  width: 500px;
+}
+
+.rights {
+  position: absolute;
+  bottom: -710px;
+  left: 80px;
+  color: #888;
+}
+
+.rights span {
+  color: #007FFF;
+}
+
+.footer-sign-up {
+  background-color: #333;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-sign-up button {
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 3px #007FFF solid;
+  color: #FFF;
+  background-color: #333;
+  font-weight: bold;
+}
+
+.footer-sign-up nav ul {
+  display: flex;
+}
+
+.footer-sign-up nav ul li {
+  padding: 10px;
+  border: none;
+}
+
+.footer-sign-up nav ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-sign-up nav ul li:first-child {
+  color: #007FFF;
+  font-weight: bold;
+  font-size: 25px;
+}
+
 .jumbo {
   background-image: url("/images/jumbotron.jpg");
   background-size: cover;
@@ -12280,11 +12385,16 @@ main .button {
   font-weight: bold;
   border: none;
   position: absolute;
-  top: -70px;
+  top: -20px;
   left: 200px;
 }
 
-main .container-card {
+main .container {
+  display: flex;
+  justify-content: center;
+}
+
+main .container .container-card {
   width: 1200px;
   height: 800px;
   margin-top: 50px;
@@ -12294,22 +12404,22 @@ main .container-card {
   color: #FFF;
 }
 
-main .container-card .card-dc {
+main .container .container-card .card-dc {
   width: 15%;
   height: 300px;
   padding: 20px 15px;
 }
 
-main .container-card .card-dc img {
+main .container .container-card .card-dc img {
   width: 100%;
 }
 
-main .container-card p {
+main .container .container-card p {
   padding: 10px 0;
   margin: 0;
 }
 
-main .container-card .button-load {
+main .container .container-card .button-load {
   padding: 10px;
   background-color: #007FFF;
   color: #FFF;
