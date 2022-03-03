@@ -15,43 +15,48 @@ main{
         font-weight: bold;
         border: none;
         position: absolute;
-        top: -70px;
+        top: -20px;
         left: 200px;
     }
 
-    .container-card{
-        width: 1200px;
-        height: 800px;
-        margin-top: 50px;
+    .container{
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
-        color: #FFF;
 
-        .card-dc {
-            width: 15%;
-            height: 300px;
-            padding: 20px 15px;
-
-            img{
-                width: 100%;
-            }
-        }
-
-        p{
-            padding: 10px 0;
-            margin: 0;
-        }
-
-        .button-load{
-            padding: 10px;
-            background-color: #007FFF;
+        .container-card{
+            width: 1200px;
+            height: 800px;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             color: #FFF;
-            font-weight: bold;
-            border: none;  
-            height: 44px;
-            width: 145px;
-            margin-top: 60px;
+
+            .card-dc {
+                width: 15%;
+                height: 300px;
+                padding: 20px 15px;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            p{
+                padding: 10px 0;
+                margin: 0;
+            }
+
+            .button-load{
+                padding: 10px;
+                background-color: #007FFF;
+                color: #FFF;
+                font-weight: bold;
+                border: none;  
+                height: 44px;
+                width: 145px;
+                margin-top: 60px;
+            }
         }
     }
 }

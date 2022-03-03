@@ -8,19 +8,21 @@
 
     <main>
         <button class="button">CURRENT SERIES</button>
+        <div class="container">
 
-        <div class="container-card">
-            @foreach($data as $value)
-
+            <div class="container-card">
+                @foreach($data as $value)
+                
                 <div class="card-dc">
                     <img src="{{ $value['thumb'] }}" alt="">
                     <p>{{ $value['series'] }}</p>
                 </div>
-
-            @endforeach
-            
-            <button class="button-load">LOAD MORE</button>
-        </div>  
+                
+                @endforeach
+                
+                <button class="button-load">LOAD MORE</button>
+            </div>  
+        </div>
         
     </main>
     
