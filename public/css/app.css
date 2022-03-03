@@ -12317,23 +12317,24 @@ nav .search .fa-search {
   width: 500px;
 }
 
-.rights {
-  position: absolute;
-  bottom: -710px;
-  left: 80px;
-  color: #888;
-}
-
-.rights span {
-  color: #007FFF;
-}
-
 .footer-sign-up {
   background-color: #333;
   height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+}
+
+.footer-sign-up .rights {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+  color: #888;
+}
+
+.footer-sign-up .rights span {
+  color: #007FFF;
 }
 
 .footer-sign-up button {

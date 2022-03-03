@@ -52,16 +52,16 @@
     }
 }
 
-.rights{
-    position: absolute;
-    bottom: -710px;
-    left: 80px;
-    color: #888;
+// .rights{
+//     position: absolute;
+//     bottom: -710px;
+//     left: 80px;
+//     color: #888;
 
-    span{
-        color: #007FFF;
-    }
-}
+//     span{
+//         color: #007FFF;
+//     }
+// }
 
 .footer-sign-up {
     background-color: #333;
@@ -69,6 +69,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+
+    .rights{
+        position: absolute;
+        bottom: 100px;
+        left: 80px;
+        color: #888;
+    
+        span{
+            color: #007FFF;
+        }
+    }
 
     button {
         text-align: center;

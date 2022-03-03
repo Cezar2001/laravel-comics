@@ -71,12 +71,16 @@
     <div class="logo"></div>
 </div>
 
-<div class="rights">
+{{-- <div class="rights">
     <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise <span class="lighted">noted here</span>. All rights reserved</p>
     <span>Cookies Settings</span>
-</div>
+</div> --}}
 
 <div class="footer-sign-up"> 
+    <div class="rights">
+        <p>All Site Content TM and © 2020 DC Entertainment, unless otherwise <span class="lighted">noted here</span>. All rights reserved</p>
+        <span>Cookies Settings</span>
+    </div>
     <button>SIGN-UP NOW!</button>
     <nav>
         <ul>
